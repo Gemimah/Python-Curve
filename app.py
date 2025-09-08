@@ -51,11 +51,31 @@ print(message)
 
 high_income = False
 good_credit = True
+student = False
 
-if high_income and good_credit:
+if (high_income or good_credit) and not student:
     print("Eligible")
 else:
     print("Not Eligible")
+    
+    # age should be between 18 and 65
+    
+   age = 22
+if 18 <= age < 65:
+    print("Eligible")
+
+# using if, elif
+if 10 == 10:
+    print("a")
+elif "bag" > "apple" and "bag" > "cat":
+    print("b")
+else:
+    print("c")
+    
+    for number in range(3):
+        print("Attempt mumberp.y+ 1r +1, "),
+
+        
     
 
 
