@@ -60,7 +60,7 @@ else:
     
     # age should be between 18 and 65
     
-   age = 22
+
 if 18 <= age < 65:
     print("Eligible")
 
@@ -74,6 +74,52 @@ else:
     
     for number in range(3):
         print("Attempt mumberp.y+ 1r +1, "),
+        successful = False
+        for number in range(3):
+            print("Attempt")
+            if successful:
+                print("successful")
+                break
+            
+            else:
+                print("Attempted 3 times and failed")
+                for x in range(5):#outer loop
+                    for y in range(3):#Inner loop
+                        print(f"({x},{y})")
+                        
+                        #using loops
+                        
+                        for number in range(1,10,2):
+                            print("Attempt", number ,number  *".")
+                            
+                            #iterables
+                    print(type(5))
+                    print(type(range(5)))
+                    
+                    for x in range(5):
+                        
+                        for item in shopping_cart:
+                            print(item)
+                            
+                            #while loops
+                            
+                            number = 100
+                            while number > 0:
+                                print(number)
+                                number //=2
+                                
+                                #infinite loops
+                                
+                                while True:
+                                    command = input(">")
+                                    print("ECHO", command)
+                                    if command.lower() == "quit":
+                                        break
+                                
+                               
+                        
+                        
+            
 
         
     
