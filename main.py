@@ -42,3 +42,4 @@ quantity = input("How many would you like?: ")
 
 total= price*quantity
 print(total)
+
