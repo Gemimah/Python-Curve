@@ -1,4 +1,4 @@
-print("Hello World")
+"""print("Hello World")
 print("*" * 10)
 
 # indicating a comment
@@ -114,7 +114,50 @@ else:
                                     command = input(">")
                                     print("ECHO", command)
                                     if command.lower() == "quit":
-                                        break
+                                        break"""
+                                        
+                                        
+name = "Hello ,here"
+print(name[-1:-4:-3])
+
+#Modify a string
+a = "Hello,World!"
+print(a.split(","))
+
+age = 14
+name="Alice"
+message =  f" you are{'eligible' if age >= 18 else ' not eligible'}"
+print(message)
+
+def my_converter(x):
+    return x *0.002345
+
+txt = f"A plane can fly at {my_converter(30000)} meter altitude"
+print(txt)
+
+price = 12.1987
+formatted_price = f" The price is ${price:.2f}"
+print(formatted_price)
+
+
+# using format function
+
+txt1 = "My name is {0}, I'm {1}".format("John",36)
+print(txt1)
+txt2 = "My name is {}, I'm {}".format("Mugisha",18)
+print(txt2)
+txt3 = "My name is {fname}, I'm {age}".format(fname="Uwineza",age=12)
+print(txt3)
+
+txt4 = "Hello world .".casefold()
+print(txt4)
+
+txt5= "H\te\tl\tl\to".expandtabs(4)
+print(txt5)
+
+                                    
+                                    
+                                    
                                 
                                
                         
